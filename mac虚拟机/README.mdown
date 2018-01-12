@@ -1,0 +1,101 @@
+# mac系统安装Linux系统（Ubuntu14.04）虚拟机
+
+一、首先需要在mac系统下载安装一个虚拟机软件，这里我选择了 Oracle VM VirtureBox；
+
+1.打开Google浏览器搜索“Oracle VM VirtureBox”，点击进入“[Oracle VM VirtureBox官方网站](https://www.virtualbox.org/wiki/VirtualBox)”,选择页面左手边的“Downloads”，进入下载页面，点击“OS X hosts”进行下载安装虚拟机软件；
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/virtualbox1.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/virtualbox2.png)
+
+2.下载完成后双击VirtualBox-5.2.2-119230-OSX.dmg安装包开始安装，安装完成后进入一个配置的页面，需要在此操作页面中单击鼠标将第1部分”VirtualBox.pkg“拖入第2部分的”Applications“的文件夹中，这样就将Oracle VM VirtureBox软件放入mac系统中的”Launchpad“中，
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/安装3.png)
+
+（1）而页面右边的”UseManuai.pdf“是用户手册。
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/用户手册4.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/用户手册5.png)
+
+（2）”VirtualBox_Uninstall.tool“则是”Oracle VM VirtureBox“软件的命令终端。
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/终端3.png)
+
+3.打开”Oracle VM VirtureBox“软件，新建虚拟机，选择操作页面菜单栏的”新建（N）“，在”虚拟电脑名称和系统类型“框中输入”名称、类型和版本“，
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/7.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/虚拟机/image/新建6.png)
+
+4.设置虚拟机内存的大小、创建虚拟硬盘；
+
+（1）内存大小根据提示先设置为1024MB，继续设置；
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/内存大小8.png)
+
+（2）创建虚拟银盘我们选择的是”创建新的虚拟硬盘“-->"VDI（VirtualBox 磁盘映像）"-->"动态分配"
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/虚拟硬盘9.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/文件类型10.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/存储方式11.png)
+
+（3）文件的位置和大小则根据推荐选择”10.00 GB“（此为虚拟硬盘文件在实际硬盘中能用的极限大小）
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/位置大小11.png)
+
+5.初步设置好之后就是这样：
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/12.png)
+
+6.初步设置完成后，再次单击”设置“按钮，选择”存储“对话框后选择 控制器：IDE分支下的”没有盘片“，单击在“分配光驱：第二IDE控制器主通道”后面的“光驱”的小标志，“选择一个虚拟光盘文件”，
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/设置13.png)
+
+（1）找到你的镜像文件存放的位置，选择系统的镜像文件选择“添加”，单击“OK”；
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/映像文件14.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/添加iso15.png)
+
+7.退回初始的页面，并单击“启动“按钮，就开始进入虚拟机中的Ubuntu14.04的安装系统页面；
+
+（1）语言选择”中文简体“，单击”安装Ubuntu“，
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/16.png)
+
+（2）在”准备安装Ubuntu“时，我们不勾选”安装中更新下载“和”安装这个第三方软件“，否则安装过程就会很漫长，单击”继续“；
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/17.png)
+
+（3）在”安装类型中“，由于我是虚拟机中安装，本身不存在其他的系统，所以直接选择了”清除整个磁盘并安装Ubuntu“（格式化硬盘），如果是安装双系统的话，则直接选择“其他分区方式”，或者选择“自动安装双系统”，最后在弹出的提示框中选择”继续“
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/19.png)
+
+（4）选择地区时会自动选择为”shanghai“，单击”继续“
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/20.png)
+
+（5）键盘布局可根据”探测键盘布局“进行设置，首先单击”探测键盘布局“，然后根据”探测键盘布局“提示框输入以下按键，之后系统便会为你推荐合适的键盘布局了；
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/21.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/22.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/23.png)
+
+（6）设置完成后，单击”继续“，在接下的页面中输入你的个人信息，例如：姓名、计算机名称、用户名和密码；
+
+设置完成后单击”继续”；
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/24.png)
+
+然后便进入了“Ubuntu14.04”的系统安装页面了，安装完成后单击重启，输入自己设置的开机密码后，就可以正式在Oracle VM VirtureBox中开始使用 Ubuntu14.04系统了；
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/25.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/26.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机/image/27.png)
