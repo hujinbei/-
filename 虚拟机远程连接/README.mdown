@@ -1,0 +1,12 @@
+#在Linux虚拟机中建立远程连接
+
+一、首先在Google中搜索关键词“Virtualbox虚拟机远程连接”，找到了一个“[如何设置VirtualBox虚拟机远程访问模式](https://zhidao.baidu.com/question/519757175878478005.html)”的教程.
+
+(1)根据教程中描述的步骤，进入[virtual box的官网](https://www.virtualbox.org/wiki/Downloads)下载一个名为“Oracle VM VirtualBox Extension Pack”的扩展包，这个扩展包实现了“Oracle VM VirtualBox虚拟机”的USB2.0设备、因特尔网卡的PXE启动和VirtualBox远程显示系统等功能；
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机远程连接/image/1.png)
+
+（2）下载完成后，点击下载好的文件进行安装，
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机远程连接/image/2.png)
+
+![](/Users/huhuhu/Desktop/sublime文件/虚拟机远程连接/image/3.png)
